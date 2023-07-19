@@ -1,0 +1,104 @@
+.NavbarWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 4.875rem;
+    padding: 1rem;
+    flex-direction: row;
+    background-color: white;
+    border-radius: .5rem;
+    width: 90%;
+}
+
+.NavbarImage{
+    position: relative;
+    width: 10rem;
+    height: 2rem;
+}
+
+.NavbarDiv{
+    display: flex;
+    gap: 1em;
+    flex-direction: row;
+}
+
+.LinkButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--purple, #633CFF);
+    /* Heading S */
+    font-family: Instrument Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 1.5rem */
+    border-radius: 0.5rem;
+    background: var(--light-purple, #EFEBFF);
+    padding: 1rem;
+    gap: 0.5rem;
+    border: none;
+}
+
+.ProfileDiv{
+    color: var(--grey, #737373);
+    /* Heading S */
+    font-family: Instrument Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 1.5rem */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 1em;
+    flex-direction: row;
+}
+
+.NavPreviewButton{
+    background-color: transparent;
+    border-radius: 0.5rem;
+    border: 1px solid var(--purple, #633CFF);
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--purple, #633CFF);
+
+    /* Heading S */
+    font-family: Instrument Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 1.5rem */
+}
+
+.LogoMobile{
+    display: none;
+}
+
+@media (max-width:1024px){
+    .NotVisible,.NotVisible1{
+        display: none;
+    }  
+    .LogoPc{
+        display: none;
+    }
+
+    .NavbarImage{
+        width: 2rem;
+        height: 2rem;
+    }
+    .LogoMobile{
+        display: flex;
+    }
+}

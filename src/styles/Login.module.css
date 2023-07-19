@@ -1,0 +1,218 @@
+.LoginContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: transparent !important;
+
+}
+
+.LoginError{
+  color: red;
+  font-size: .7rem;
+  position: absolute;
+  right: 10px;
+  top: 1rem;
+}
+.LoginImage{
+  height: 40px;
+  width: 500px;
+  position: relative;
+}
+
+.LoginWrapper{
+    max-width: 29.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.1875rem;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;}
+    
+.LoginForm{
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.1); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.1);
+    display: flex;
+    padding: 2.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+    background-color: white;
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.LoginH1{
+    color: var(--dark-grey, #333);
+    /* Heading M */
+    font-family: Instrument Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.LoginDescription{
+    color: var(--grey, #737373);
+    /* Body M */
+    font-family: Instrument Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.LoginLabel{
+    color: var(--dark-grey, #333);
+    /* Body S */
+    font-family: Instrument Sans;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.LoginInputWrapper{
+    position: relative;
+    height: 3rem;
+    width: 100%;
+}
+.LoginInput{
+  padding-left: 2rem;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    gap: 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--borders, #D9D9D9);
+    background: var(--white, #FFF)
+}
+
+.LoginInput::placeholder {
+    color: var(--dark-grey, #333);
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%;
+    opacity: .5;
+  }
+  
+  /* For modern browsers */
+  .LoginInput:-moz-placeholder {
+    position: relative;
+    left: 3rem;
+  }
+  
+  /* For Internet Explorer 10-11 */
+  .LoginInput::-ms-input-placeholder {
+    position: relative;
+    left: 3rem;
+  }
+  
+  /* For Microsoft Edge */
+  .LoginInput::-ms-input-placeholder {
+    position: relative;
+    left: 3rem;
+  }
+  
+  /* For WebKit-based browsers */
+  .LoginInput::-webkit-input-placeholder {
+    position: relative;
+    left: 3rem;
+  }
+  
+  /* For Opera */
+  .LoginInput::-o-input-placeholder {
+    position: relative;
+    left: 3rem;
+  }
+
+  /* For Mozilla Firefox */
+@-moz-document url-prefix() {
+    .LoginInput::placeholder {
+      position: relative;
+      left: 3rem;
+    }
+  }
+
+.LoginButton{
+    display: flex;
+    padding: 1.6rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
+    border-radius: 0.5rem;
+    background: var(--purple, #633CFF);
+    height: 3rem;
+    width: 100%;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.LoginButton:active{
+  background: var(--purple-hover-color, #BEADFF);
+/* active-selection */
+box-shadow: 0px 0px 32px 0px rgba(99, 60, 255, 0.25);
+}
+
+.LoginDiv{
+    display: flex;
+    align-self: center;
+    color: #737373;
+    text-align: center;
+    gap: .5rem;
+    /* Body M */
+    font-family: Instrument Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.LoginNoAccount{
+    color: #633CFF;
+}
+
+.LoginImageInput{
+    position: absolute;
+    left: 10px;
+    top: 1rem;
+}
+
+@media (max-width:500px){
+
+    .LoginWrapper{
+        background-color: white;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .LoginImage{
+      height: 40px;
+      width: 200px;
+      position: relative;
+    }
+    .LoginImageWrapper{
+      align-items: start;
+      padding: 2rem;
+      display: flex;
+      justify-content: start;
+      width: 100%;
+    }
+    .LoginForm{
+        box-shadow: none;
+        gap: .5rem;
+    }
+    .LoginDiv{
+      flex-direction: column;
+    }
+
+
+}

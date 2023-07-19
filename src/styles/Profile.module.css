@@ -1,0 +1,131 @@
+.ProfileH1{
+    color: var(--dark-grey, #333);
+    /* Heading M */
+    font-family: Instrument Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 3rem */
+}
+
+.ProfileP{
+    color: var(--grey, #737373);
+    /* Body M */
+    font-family: Instrument Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.5rem */
+}
+
+.ProfilePicture{
+    align-items: center;
+    border-radius: 0.75rem;
+    background: var(--light-grey, #FAFAFA);
+    height: 14.75rem;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ProfileSpan2{
+    color: var(--grey, #737373);
+    /* Body M */
+    font-family: Instrument Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.5rem */
+}
+
+.UploadImage{
+    height: 100%;
+    border-radius: 0.75rem;
+background: var(--light-purple, #EFEBFF);
+display: flex;
+padding: 3.8125rem 2.375rem 3.75rem 2.4375rem;
+justify-content: center;
+align-items: center;
+}
+
+.ProfileSpan{
+    color: var(--purple, #633CFF);
+
+/* Heading S */
+font-family: Instrument Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 1.5rem */
+}
+
+.ProfileP{
+    color: var(--grey, #737373);
+
+/* Body S */
+font-family: Instrument Sans;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 1.125rem */
+}
+
+.ProfileDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProfileForm{
+    border-radius: 0.75rem;
+    background: var(--light-grey, #FAFAFA);
+    padding: 1.25rem;
+    gap: .75rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.ProfileFormRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ProfileLabel{
+    color: var(--grey, #737373);
+    /* Body M */
+    font-family: Instrument Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.5rem */
+}
+
+.ProfileInput{
+    border-radius: 0.5rem;
+    border: 1px solid var(--borders, #D9D9D9);
+    background: var(--white, #FFF);
+    padding: 1rem;
+    height: 3rem;
+    max-width: 27rem;
+}
+
+.ProfileBottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.ProfileButtonSave{
+    color: white;
+    border: none;
+    height: 3rem;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+background: var(--purple, #633CFF);
+}
